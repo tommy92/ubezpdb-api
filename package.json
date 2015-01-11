@@ -1,0 +1,23 @@
+{
+  "name": "ubezpdb-api",
+  "version": "0.0.1",
+  "description": "ubezpdb-api ===========",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommy92/ubezpdb-api.git"
+  },
+  "author": "Tom Jaworski",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/tommy92/ubezpdb-api/issues"
+  },
+  "dependencies": {
+    "express": "~4.10.7",
+    "bookshelf": "~0.7.9",
+    "knex": "~0.7.3"
+  }
+}
