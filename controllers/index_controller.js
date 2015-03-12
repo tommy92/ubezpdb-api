@@ -1,11 +1,16 @@
 'use strict';
 
 var organizationsCtrl = require('./organizations_controller');
+var usersCtrl = require('./users_controller');
 
 var controllers = function() {
   return {
     organizations: function() {
       return organizationsCtrl;
+    },
+
+    users: function() {
+      return usersCtrl;
     }
   }
 };

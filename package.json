@@ -20,6 +20,7 @@
     "bookshelf": "~0.7.9",
     "knex": "~0.7.3",
     "bcrypt": "~0.8.0",
-    "body-parser": "~1.10.1"
+    "body-parser": "~1.10.1",
+    "bluebird": "~2.7.1"
   }
 }
